@@ -6,4 +6,4 @@ Programmers SQL 고득점 kit
 
 <br><br>
 <a href="https://doh-an.tistory.com/30">JOIN 개념</a><br><br>
-<a href="https://doh-an.tistory.com/30](http://www.gurubee.net/lecture/1032">GROUP BY / HAVING 개념</a>
+<a href="http://www.gurubee.net/lecture/1032">GROUP BY / HAVING 개념</a>
