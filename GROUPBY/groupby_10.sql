@@ -1,0 +1,11 @@
+SELECT CATEGORY, PRICE AS MAX_PRICE, PRODUCT_NAME
+FROM FOOD_PRODUCT
+WHERE (CATEGORY, PRICE) IN (
+    SELECT CATEGORY, MAX(PRICE)
+    FROM FOOD_PRODUCT
+    WHERE CATEGORY IN ('과자', '국', '김치', '식용유')
+    GROUP BY CATEGORY
+)
+ORDER BY MAX_PRICE DESC;
+
+# 카테고리별 가장 비싼 가격에 대한 상품 이름을 매칭하기 위해서 WHERE 조건문 안에 서브쿼리를 만들어서 가져오도록 구현
